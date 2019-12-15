@@ -11,6 +11,7 @@ add_executable(HDU1003 HDU1003.cpp)
 add_executable(HDU1004 HDU1004.cpp)
 add_executable(HDU1005 HDU1005.cpp)
 add_executable(HDU1006 HDU1006.cpp)
+add_executable(HDU1007 HDU1007.cpp)
 add_executable(HDU1008 HDU1008.cpp)
 
 add_executable(HDU1285 HDU1285.cpp)
