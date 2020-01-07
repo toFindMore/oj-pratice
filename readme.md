@@ -33,8 +33,8 @@
     - 图论：
         - [1010(简单图遍历+剪枝)](http://acm.hdu.edu.cn/showproblem.php?pid=1010) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1010.cpp)
     - 分治
-        - [1007(平面最近点对)](http://acm.hdu.edu.cn/showproblem.php?pid=1007) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1007.cpp)
+        - [1007(平面最近点对)](http://acm.hdu.edu.cn/showproblem.php?pid=1007) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1007.cpp) [我的博客](https://github.com/toFindMore/OJ_Practice/blob/master/blog/%E5%87%A0%E4%BD%95/HDU%201007%20Quoit%20Design.md)
 
 - POJ
     - 动态规划
-        - [1985(树的直径)](http://poj.org/problem?id=1985) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/special-practice/%E6%A0%91%E5%BD%A2DP/POJ1985.cpp)
+        - [1985(树的直径)](http://poj.org/problem?id=1985) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/special-practice/%E6%A0%91%E5%BD%A2DP/POJ1985.cpp) [我的博客](https://github.com/toFindMore/OJ_Practice/blob/master/blog/%E5%9B%BE/%E6%A0%91%E7%9A%84%E7%9B%B4%E5%BE%84.md)
