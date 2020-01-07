@@ -36,7 +36,7 @@ void dfs(int now) {
         for (int i = m + 1; i >= 1; i--) {
             for (int j = 0; j < i; j++) {
                 dp[now][i] = max(dp[now][i], dp[to][j] + dp[now][i - j]);
-                // 以下情况会导致覆盖
+                // 以下情况会导致覆盖 dp[now][i]中的i必须要比 dp[now][i - j] 要小
                 // dp[now][i] = max(dp[now][i], dp[now][j] + dp[to][i - j]);
             }
         }
