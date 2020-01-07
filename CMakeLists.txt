@@ -43,7 +43,7 @@ add_executable(MIOJ0008 mioj/MIOJ0008.cpp)
 add_executable(MIOJ0009 mioj/MIOJ0009.cpp)
 
 add_executable(P2015 special-practice/树形DP/P2015.cpp)
-
+add_executable(P2014 special-practice/树形DP/P2014.cpp)
 
 
 
