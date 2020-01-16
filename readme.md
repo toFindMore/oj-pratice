@@ -20,12 +20,14 @@
         - [1000(A+B)](http://acm.hdu.edu.cn/showproblem.php?pid=1000) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1000.cpp)
         - [1001(区间和)](http://acm.hdu.edu.cn/showproblem.php?pid=1001) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1001.cpp)
         - [1004(数最多个数)](http://acm.hdu.edu.cn/showproblem.php?pid=1004) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1004.cpp)
-        - [1012(数最多个数)](http://acm.hdu.edu.cn/showproblem.php?pid=1012) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1012.cpp)
+        - [1012(模拟计算)](http://acm.hdu.edu.cn/showproblem.php?pid=1012) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1012.cpp)
+        - [1013(递归求数)](http://acm.hdu.edu.cn/showproblem.php?pid=1013) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1013.cpp)
     - 模拟题
         - [1002(大数加法)](http://acm.hdu.edu.cn/showproblem.php?pid=1002) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1002.cpp)
         - [1008(上下楼梯)](http://acm.hdu.edu.cn/showproblem.php?pid=1008) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1008.cpp)
     - 动态规划
         - [1003(区间和最大)](http://acm.hdu.edu.cn/showproblem.php?pid=1003) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1003.cpp)
+        - [1011(树形DP)](http://acm.hdu.edu.cn/showproblem.php?pid=1011) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1011.cpp)
     - 快速幂：
         - [1005(矩阵快速幂)](http://acm.hdu.edu.cn/showproblem.php?pid=1005) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1005.cpp)
     - 贪心：
