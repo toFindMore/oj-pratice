@@ -21,6 +21,7 @@
         - [1004(数最多个数)](http://acm.hdu.edu.cn/showproblem.php?pid=1004) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1004.cpp)
         - [1012(模拟计算)](http://acm.hdu.edu.cn/showproblem.php?pid=1012) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1012.cpp)
         - [1013(递归求数)](http://acm.hdu.edu.cn/showproblem.php?pid=1013) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1013.cpp)
+        - [1014(判断随机种子好坏)](http://acm.hdu.edu.cn/showproblem.php?pid=1014) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1014.cpp)
     - 模拟题
         - [1002(大数加法)](http://acm.hdu.edu.cn/showproblem.php?pid=1002) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1002.cpp)
         - [1008(上下楼梯)](http://acm.hdu.edu.cn/showproblem.php?pid=1008) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1008.cpp)
