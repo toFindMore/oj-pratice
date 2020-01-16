@@ -19,6 +19,7 @@ add_executable(HDU1011 hdu/HDU1011.cpp)
 add_executable(HDU1012 hdu/HDU1012.cpp)
 add_executable(HDU1013 hdu/HDU1013.cpp)
 add_executable(HDU1014 hdu/HDU1014.cpp)
+add_executable(HDU1015 hdu/HDU1015.cpp)
 
 add_executable(HDU1285 hdu/HDU1285.cpp)
 add_executable(HDU2037 hdu/HDU2037.cpp)
