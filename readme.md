@@ -23,6 +23,8 @@
         - [1013(递归求数)](http://acm.hdu.edu.cn/showproblem.php?pid=1013) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1013.cpp)
         - [1014(判断随机种子好坏)](http://acm.hdu.edu.cn/showproblem.php?pid=1014) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1014.cpp)
         - [1017(找出满足条件的数)](http://acm.hdu.edu.cn/showproblem.php?pid=1017) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1017.cpp)
+        - [1019(多数的最小公倍数)](http://acm.hdu.edu.cn/showproblem.php?pid=1019) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1019.cpp)
+        - [1020(将重复串变为kX形式)](http://acm.hdu.edu.cn/showproblem.php?pid=1020) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1020.cpp)
     - 搜索
         - [1016(两数和互质-串)](http://acm.hdu.edu.cn/showproblem.php?pid=1016) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1016.cpp)
     - 模拟题
