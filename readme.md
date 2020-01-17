@@ -22,6 +22,7 @@
         - [1012(模拟计算)](http://acm.hdu.edu.cn/showproblem.php?pid=1012) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1012.cpp)
         - [1013(递归求数)](http://acm.hdu.edu.cn/showproblem.php?pid=1013) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1013.cpp)
         - [1014(判断随机种子好坏)](http://acm.hdu.edu.cn/showproblem.php?pid=1014) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1014.cpp)
+        - [1017(找出满足条件的数)](http://acm.hdu.edu.cn/showproblem.php?pid=1017) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1017.cpp)
     - 搜索
         - [1016(两数和互质-串)](http://acm.hdu.edu.cn/showproblem.php?pid=1016) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1016.cpp)
     - 模拟题
@@ -36,6 +37,8 @@
         - [1009(简单贪心)](http://acm.hdu.edu.cn/showproblem.php?pid=1009) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1009.cpp)
     - 图论：
         - [1010(简单图遍历+剪枝)](http://acm.hdu.edu.cn/showproblem.php?pid=1010) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1010.cpp)
+    - 数学：
+        - [1018(阶层位数)](http://acm.hdu.edu.cn/showproblem.php?pid=1018) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1018.cpp)
     - 分治
         - [1007(平面最近点对)](http://acm.hdu.edu.cn/showproblem.php?pid=1007) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1007.cpp) [我的博客](https://github.com/toFindMore/OJ_Practice/blob/master/blog/%E5%87%A0%E4%BD%95/HDU%201007%20Quoit%20Design.md)
 
