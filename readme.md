@@ -32,6 +32,7 @@
     - 模拟题
         - [1002(大数加法)](http://acm.hdu.edu.cn/showproblem.php?pid=1002) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1002.cpp)
         - [1008(上下楼梯)](http://acm.hdu.edu.cn/showproblem.php?pid=1008) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1008.cpp)
+        - [1022(进出栈顺序打印)](http://acm.hdu.edu.cn/showproblem.php?pid=1022) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1022.cpp)
     - 动态规划
         - [1003(区间和最大)](http://acm.hdu.edu.cn/showproblem.php?pid=1003) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1003.cpp)
         - [1011(树形DP)](http://acm.hdu.edu.cn/showproblem.php?pid=1011) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1011.cpp)
