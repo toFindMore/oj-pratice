@@ -25,6 +25,8 @@
         - [1017(找出满足条件的数)](http://acm.hdu.edu.cn/showproblem.php?pid=1017) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1017.cpp)
         - [1019(多数的最小公倍数)](http://acm.hdu.edu.cn/showproblem.php?pid=1019) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1019.cpp)
         - [1020(将重复串变为kX形式)](http://acm.hdu.edu.cn/showproblem.php?pid=1020) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1020.cpp)
+    - 规律
+        - [1021(斐波那契数列第n位能否被3整除)](http://acm.hdu.edu.cn/showproblem.php?pid=1021) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1021.cpp)
     - 搜索
         - [1016(两数和互质-串)](http://acm.hdu.edu.cn/showproblem.php?pid=1016) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1016.cpp)
     - 模拟题
