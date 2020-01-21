@@ -27,6 +27,7 @@ add_executable(HDU1019 hdu/HDU1019.cpp)
 add_executable(HDU1020 hdu/HDU1020.cpp)
 add_executable(HDU1021 hdu/HDU1021.cpp)
 add_executable(HDU1022 hdu/HDU1022.cpp)
+add_executable(HDU1023 hdu/HDU1023.cpp)
 
 add_executable(HDU1285 hdu/HDU1285.cpp)
 add_executable(HDU2037 hdu/HDU2037.cpp)
@@ -56,6 +57,11 @@ add_executable(P2015 special-practice/树形DP/P2015.cpp)
 add_executable(P2014 special-practice/树形DP/P2014.cpp)
 
 add_executable(POJ1985 special-practice/树形DP/POJ1985.cpp)
+
+add_executable(gcd_1 special-practice/数论/gcd.cpp)
+add_executable(ext_gcd special-practice/数论/ext_gcd.cpp)
+add_executable(combine_num special-practice/数论/combine_num.cpp)
+
 
 
 
