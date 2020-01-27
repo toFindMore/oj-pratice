@@ -1,23 +1,53 @@
 //
 // Created by 周健 on 2020-01-21.
 //
-#include <stdio.h>
+#include<stdio.h>
+#include <cstring>
 
-const int INF = -0x3fffff;
+typedef long long LL;
+
+const int INF = 0x3ffffff;
+
+const int SIZE = 1000001;
+
+LL a[SIZE];
+
+LL dp[SIZE];
+
+LL dp_k[SIZE];
+
+LL max(LL a, LL b) {
+    return a > b ? a : b;
+}
 
 int main() {
-    int n, m, tmp;
-    while (scanf("%d%d", &n, &m) != EOF) {
-        long long res = INF;
-        long long dp = INF;
-        for (int i = 1; i <= m; i++) {
-            scanf("%d", &tmp);
-            dp = dp < 0 ? tmp : dp + tmp;
-            res = res > dp ? res : dp;
-            printf("dp = %d\n", dp);
+    int m, n;
+    while (scanf("%d%d", &m, &n) != EOF) {
+        // init
+        memset(dp, 0, sizeof(dp));
+        memset(dp_k, 0, sizeof(dp_k));
+        for (int i = 1; i <= n; i++) {
+            scanf("%lld", &a[i]);
         }
-        printf("%lld\n", res);
+        int tmp;
+        // dp[i][j] = max(dp[i][j-1]+a[j], max(dp[i-1][k]+a[j]) ) (其中 i-1 <= k <= j-1)
+        // dp_k[j] = max(dp[i-1][i-1], dp[i-1][i], ..., dp[i-1][j-1]);
+        for (int i = 1; i <= m; i++) {
+            // 当分为i份时的最大值
+            tmp = -INF;
+            for (int j = i; j <= n; j++) {
+                dp[j] = max(dp[j - 1], dp_k[j - 1]) + a[j];
+                // 更新相关数据，i+1时可以使用
+                dp_k[j - 1] = tmp;
+                // 更细最大值
+                tmp = max(dp[j], tmp);
+            }
+        }
+        printf("%lld\n", tmp);
     }
     return 0;
 }
-// 2 6 -1 4 -2 3 -2 3
+/*
+1 3 1 2 3
+2 6 -1 4 -2 3 -2 3
+*/

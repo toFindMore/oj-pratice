@@ -36,6 +36,7 @@
     - 动态规划
         - [1003(区间和最大)](http://acm.hdu.edu.cn/showproblem.php?pid=1003) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1003.cpp)
         - [1011(树形DP)](http://acm.hdu.edu.cn/showproblem.php?pid=1011) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1011.cpp)
+        - [1024(最大m子段和)](http://acm.hdu.edu.cn/showproblem.php?pid=1024) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1024.cpp)
     - 快速幂：
         - [1005(矩阵快速幂)](http://acm.hdu.edu.cn/showproblem.php?pid=1005) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1005.cpp)
     - 贪心：
