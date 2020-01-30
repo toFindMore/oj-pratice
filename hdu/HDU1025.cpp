@@ -2,38 +2,63 @@
 // Created by 周健 on 2020-01-28.
 //
 #include <stdio.h>
-#include <cstring>
+#include <algorithm>
 
-int card[16];
+using namespace std;
 
-void init() {
-    for (int i = 1; i <= 13; i++) {
-        card[i] = 4;
-    }
-    card[14] = 2;
+const int MAXN = 500005;
+
+struct Node {
+    int index, v;
+} node[MAXN];
+
+int c[MAXN];
+
+int n;
+
+int cmp(Node n1, Node n2) {
+    return n1.index < n2.index;
 }
 
-void print() {
-    printf("  A  2  3  4  5  6  7  8  9 10  J  Q  K  King\n");
-    for (int i = 1; i <= 14; i++) {
-        printf("%3d", card[i]);
+int max(int a, int b) {
+    return a > b ? a : b;
+}
+
+int lowbit(int x) {
+    return x & (-x);
+}
+
+int query(int x) {
+    int res = 0;
+    while (x) {
+        res = max(c[x], res);
+        x -= lowbit(x);
     }
-    printf("\n");
-    card[14] = 2;
+    return res;
+}
+
+int modifier(int x, int v) {
+    while (x <= n) {
+        c[x] = max(c[x], v);
+        x += lowbit(x);
+    }
 }
 
 int main() {
-    int T = 1000;
-    init();
-    while (T--) {
-        int n;
-        scanf("%d", &n);
-        if (n == 0) {
-            init();
-            continue;
+    while (scanf("%d", &n) != EOF) {
+        // init
+        memset(c, 0, sizeof(c));
+        for (int i = 1; i <= n; i++) {
+            scanf("%d%d", &node[i].index, &node[i].v);
         }
-        card[n]--;
-        print();
+        sort(node + 1, node + n + 1, cmp);
+        int res = 0;
+        for (int i = 1; i <= n; i++) {
+            int tmp = query(node[i].v - 1) + 1;
+            res = max(res, tmp);
+            modifier(node[i].v, tmp);
+        }
+        printf("My king, at most %d road can be built.\n\n", res);
     }
     return 0;
 }
