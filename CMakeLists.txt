@@ -47,14 +47,9 @@ add_executable(HDU6318 hdu/HDU6318.cpp)
 add_executable(HDU1284 hdu/HDU1284.cpp)
 add_executable(HDU1108 hdu/HDU1108.cpp)
 
-add_executable(MIOJ0001 mioj/MIOJ0001.cpp)
-add_executable(MIOJ0002 mioj/MIOJ0002.cpp)
-add_executable(MIOJ0003 mioj/MIOJ0003.cpp)
-add_executable(MIOJ0004 mioj/MIOJ0004.cpp)
-add_executable(MIOJ0006 mioj/MIOJ0006.cpp)
-add_executable(MIOJ0007 mioj/MIOJ0007.cpp)
-add_executable(MIOJ0008 mioj/MIOJ0008.cpp)
-add_executable(MIOJ0009 mioj/MIOJ0009.cpp)
+
+add_executable(ZOJ1001 zoj/ZOJ1001.cpp)
+add_executable(ZOJ1002 zoj/ZOJ1002.cpp)
 
 add_executable(P2015 special-practice/树形DP/P2015.cpp)
 add_executable(P2014 special-practice/树形DP/P2014.cpp)

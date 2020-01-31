@@ -26,8 +26,7 @@
         - [1019(多数的最小公倍数)](http://acm.hdu.edu.cn/showproblem.php?pid=1019) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1019.cpp)
         - [1020(将重复串变为kX形式)](http://acm.hdu.edu.cn/showproblem.php?pid=1020) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1020.cpp)
     - 规律
-        - [1021(斐波那契数列第n位能否被3整除)](http://acm.hdu.edu.cn/showproblem.php?pid=1021) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1021.cpp)
-    - 搜索
+        - [1021(斐波那契数列第n位能否被3整除)](http://acm.hdu.edu.cn/showproblem.php?pid=1021) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU10 
         - [1016(两数和互质-串)](http://acm.hdu.edu.cn/showproblem.php?pid=1016) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1016.cpp)
     - 模拟题
         - [1002(大数加法)](http://acm.hdu.edu.cn/showproblem.php?pid=1002) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1002.cpp)
@@ -52,6 +51,7 @@
     - 数据结构
         - [1025(最长递增子序列)](http://acm.hdu.edu.cn/showproblem.php?pid=1025) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1025.cpp) [树状数组](https://github.com/toFindMore/OJ_Practice/blob/master/blog/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84.md)
 
+- ZOJ
 - POJ
     - 动态规划
         - [1985(树的直径)](http://poj.org/problem?id=1985) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/special-practice/%E6%A0%91%E5%BD%A2DP/POJ1985.cpp) [我的博客](https://github.com/toFindMore/OJ_Practice/blob/master/blog/%E5%9B%BE/%E6%A0%91%E7%9A%84%E7%9B%B4%E5%BE%84.md)
