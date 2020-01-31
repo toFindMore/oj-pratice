@@ -43,6 +43,7 @@
         - [1009(简单贪心)](http://acm.hdu.edu.cn/showproblem.php?pid=1009) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1009.cpp)
     - 图论：
         - [1010(简单图遍历+剪枝)](http://acm.hdu.edu.cn/showproblem.php?pid=1010) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1010.cpp)
+        - [1026(图遍历求最小花费并打印路径)](http://acm.hdu.edu.cn/showproblem.php?pid=1026) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1026.cpp)
     - 数学：
         - [1018(阶层位数)](http://acm.hdu.edu.cn/showproblem.php?pid=1018) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1018.cpp)
         - [1023(Catalan求进栈出栈种类数目)](http://acm.hdu.edu.cn/showproblem.php?pid=1023) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1023.cpp)
