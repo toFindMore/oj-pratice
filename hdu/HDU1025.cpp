@@ -2,6 +2,7 @@
 // Created by 周健 on 2020-01-28.
 //
 #include <stdio.h>
+#include <cstring>
 #include <algorithm>
 
 using namespace std;
@@ -45,6 +46,7 @@ int modifier(int x, int v) {
 }
 
 int main() {
+    int caseNum = 0;
     while (scanf("%d", &n) != EOF) {
         // init
         memset(c, 0, sizeof(c));
@@ -58,7 +60,13 @@ int main() {
             res = max(res, tmp);
             modifier(node[i].v, tmp);
         }
-        printf("My king, at most %d road can be built.\n\n", res);
+        printf("Case %d:\nMy king, at most %d ", ++caseNum, res);
+        if (res == 1) {
+            printf("road ");
+        } else {
+            printf("roads ");
+        }
+        printf("can be built.\n\n");
     }
     return 0;
 }
