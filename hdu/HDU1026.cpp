@@ -1,73 +1,117 @@
 //
+// BFS
 // Created by 周健 on 2020-01-31.
 //
 #include <stdio.h>
 #include <string.h>
-#include <stdlib.h>
-#include <utility>
-
-const int INF = 0x3ffffff;
+#include <queue>
 
 const int MAXN = 105;
 
-char rooms[MAXN][MAXN];
+int n, m;
 
-int visit[MAXN][MAXN];
+bool visit[MAXN][MAXN];
 
-int n, m, minValue;
+int rooms[MAXN][MAXN];
+
+int roomsCopy[MAXN][MAXN];
+
+int path[MAXN][MAXN];
+
+int second;
+
+struct Node {
+    int x, y;
+    int step;
+
+    Node(int _x, int _y) {
+        x = _x;
+        y = _y;
+        step = 0;
+    }
+
+    Node() {}
+};
 
 int direction[4][2] = {{0,  1},
                        {1,  0},
-                       {-1, 0},
-                       {0,  -1}};
+                       {0,  -1},
+                       {-1, 0}};
 
 void init() {
+    memset(visit, false, sizeof(visit));
+    second = 0;
+}
+
+bool judge(int x, int y) {
+    if (x > n - 1 || x < 0 || y > m - 1 || y < 0 || roomsCopy[x][y] == 'X' || visit[x][y]) return false;
+    return true;
+}
+
+int bfs(int x, int y) {
+    // 保留原有文件
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < m; j++) {
-            visit[i][j] = INF;
+            roomsCopy[i][j] = rooms[i][j];
         }
     }
-    minValue = INF;
+    std::queue<Node> nodeQueue;
+    Node cur = Node(x, y), next;
+    visit[x][y] = true;
+    nodeQueue.push(cur);
+    while (!nodeQueue.empty()) {
+        cur = nodeQueue.front();
+        nodeQueue.pop();
+        char c = roomsCopy[cur.x][cur.y];
+        // 如果已经到了目的地
+        if (cur.x == n - 1 && cur.y == m - 1) {
+            int num = 0;
+            if (c >= '1' && c <= '9') {
+                num += c - '0';
+            }
+            return cur.step + num;
+        }
+        // 如果是数字
+        if (c >= '1' && c <= '9') {
+            if (c == '1') {
+                roomsCopy[cur.x][cur.y] = '.';
+            } else {
+                roomsCopy[cur.x][cur.y] = c - 1;
+            }
+            next.x = cur.x;
+            next.y = cur.y;
+            next.step = cur.step + 1;
+            nodeQueue.push(next);
+            continue;
+        }
+        // 如果是 .
+        for (int i = 0; i < 4; i++) {
+            next.x = cur.x + direction[i][0];
+            next.y = cur.y + direction[i][1];
+            next.step = cur.step + 1;
+            if (!judge(next.x, next.y)) continue;
+            visit[next.x][next.y] = true;
+            path[next.x][next.y] = i;
+            nodeQueue.push(next);
+        }
+    }
+    return 0;
 }
 
-struct Path {
-    std::pair<int, int> path[MAXN];
-    int length;
-} resPath;
-
-void copyPath(std::pair<int, int> path[], int cnt) {
-    for (int i = 0; i <= cnt; i++) {
-        resPath.path[i].first = path[i].first;
-        resPath.path[i].second = path[i].second;
-    }
-    resPath.length = cnt;
-}
-
-void dfs(int x, int y, int cost, std::pair<int, int> path[], int cnt) {
-    // 越界
-    if (x < 0 || x > n - 1 || y < 0 || y > m - 1) return;
-    if (rooms[x][y] == 'X') return;
-    if (rooms[x][y] != '.') cost += rooms[x][y] - '0';
-    // 剪枝优化 表示有更加优化的走法已经走过了 这里再这样走就没有意义了
-    if (visit[x][y] <= cost) return;
-    visit[x][y] = cost;
-    // 加路径
-    path[cnt].first = x;
-    path[cnt].second = y;
-    // 到达终点
-    if (x == n - 1 && y == m - 1) {
-        if (minValue <= cost) return;
-        minValue = cost;
-        // 更新路径
-        copyPath(path, cnt);
-        return;
-    }
-    // 往周边走
-    for (int i = 0; i < 4; i++) {
-        dfs(x + direction[i][0], y + direction[i][1], cost + 1, path, cnt + 1);
+void print(int x, int y) {
+    if (x == 0 && y == 0) return;
+    // 反推路径
+    int index = path[x][y];
+    int _x = x - direction[index][0], _y = y - direction[index][1];
+    print(_x, _y);
+    printf("%ds:(%d,%d)->(%d,%d)\n", ++second, _x, _y, x, y);
+    if (rooms[x][y] >= '1' && rooms[x][y] <= '9') {
+        int cnt = rooms[x][y] - '0';
+        for (int i = 0; i < cnt; ++i) {
+            printf("%ds:FIGHT AT (%d,%d)\n", ++second, x, y);
+        }
     }
 }
-
 
 int main() {
     while (scanf("%d%d", &n, &m) != EOF) {
@@ -78,25 +122,13 @@ int main() {
                 scanf("%c", &rooms[i][j]);
             }
         }
-        std::pair<int, int> path[MAXN];
-        dfs(0, 0, 0, path, 0);
-        if (visit[n - 1][m - 1] == INF) {
-            printf("God please help our poor hero.\nFINISH\n");
-            continue;
-        }
-        printf("It takes %d seconds to reach the target position, let me show you the way.\n", minValue);
-        int second = 0;
-        for (int i = 0; i < resPath.length; i++) {
-            int x1 = resPath.path[i].first;
-            int y1 = resPath.path[i].second;
-            int x2 = resPath.path[i + 1].first;
-            int y2 = resPath.path[i + 1].second;
-            printf("%ds:(%d,%d)->(%d,%d)\n", ++second, x1, y1, x2, y2);
-            if (rooms[x2][y2] != '.') {
-                for (int j = 0; j < rooms[x2][y2] - '0'; j++) {
-                    printf("%ds:FIGHT AT (%d,%d)\n", ++second, x2, y2);
-                }
-            }
+        int step = bfs(0, 0);
+        // 如果有
+        if (step) {
+            printf("It takes %d seconds to reach the target position, let me show you the way.\n", step);
+            print(n - 1, m - 1);
+        } else {
+            printf("God please help our poor hero.\n");
         }
         printf("FINISH\n");
     }
