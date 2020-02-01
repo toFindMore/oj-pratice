@@ -52,6 +52,10 @@
         - [1025(最长递增子序列)](http://acm.hdu.edu.cn/showproblem.php?pid=1025) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1025.cpp) [树状数组](https://github.com/toFindMore/OJ_Practice/blob/master/blog/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84.md)
 
 - ZOJ
+    - 简单题
+        -[1001(A+B)](https://zoj.pintia.cn/problem-sets/91827364500/problems/91827364500) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/zoj/ZOJ1001.cpp)
+    - 搜索
+        -[1002(最大放置个数)](https://zoj.pintia.cn/problem-sets/91827364500/problems/91827364501) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/zoj/ZOJ1002.cpp)
 - POJ
     - 动态规划
         - [1985(树的直径)](http://poj.org/problem?id=1985) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/special-practice/%E6%A0%91%E5%BD%A2DP/POJ1985.cpp) [我的博客](https://github.com/toFindMore/OJ_Practice/blob/master/blog/%E5%9B%BE/%E6%A0%91%E7%9A%84%E7%9B%B4%E5%BE%84.md)
