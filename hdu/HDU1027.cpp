@@ -36,8 +36,8 @@ int main() {
         }
         // 遍历n
         for (int i = nCpy; i >= 1; --i) {
+            // 确定第几大第数字
             int index = (m + k[i - 1] - 1) / k[i - 1];
-            m = (m + k[i - 1] - 1) % k[i - 1] + 1;
             for (int t = 1, cnt = 0; t <= n; t++) {
                 if (!visit[t]) ++cnt;
                 if (cnt == index) {
@@ -46,7 +46,10 @@ int main() {
                     break;
                 }
             }
+            // 为下一个m做准备
+            m = (m + k[i - 1] - 1) % k[i - 1] + 1;
         }
+        // print
         printf("%d", q.front());
         q.pop();
         while (!q.empty()) {
