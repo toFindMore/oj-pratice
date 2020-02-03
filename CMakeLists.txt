@@ -62,6 +62,7 @@ add_executable(POJ1985 special-practice/树形DP/POJ1985.cpp)
 add_executable(gcd_1 special-practice/数论/gcd.cpp)
 add_executable(ext_gcd special-practice/数论/ext_gcd.cpp)
 add_executable(combine_num special-practice/数论/combine_num.cpp)
+add_executable(prime special-practice/数论/prime.cpp)
 
 
 

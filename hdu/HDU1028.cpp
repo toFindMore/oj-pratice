@@ -3,27 +3,44 @@
 // Created by 周健 on 2020-02-02.
 //
 #include <stdio.h>
+#include <string.h>
+
+const int MAX = 121;
+
+int map[MAX][MAX];
+
+void init() {
+    for (int i = 0; i < MAX; ++i) {
+        for (int j = 0; j < MAX; ++j) {
+            map[i][j] = -1;
+        }
+    }
+}
 
 int partition(int n, int m) {
     if (n == 1 || m == 1) return 1;
-    if (n == m) return 1 + partition(n, n - 1);
-    if (n < m) return partition(n, n);
+    if (map[n][m] != -1) {
+        return map[n][m];
+    }
+    if (n == m) {
+        map[n][n - 1] = partition(n, n - 1);
+        return 1 + map[n][n - 1];
+    }
+    if (n < m) {
+        map[n][n] = partition(n, n);
+        return map[n][n];
+    }
     // n > m 含有m和不含有m两种情况
-    return partition(n - m, m) + partition(n, m - 1);
+    map[n - m][m] = partition(n - m, m);
+    map[n][m - 1] = partition(n, m - 1);
+    return map[n - m][m] + map[n][m - 1];
 }
 
 int main() {
     int n;
     while (scanf("%d", &n) != EOF) {
+        init();
         printf("%d\n", partition(n, n));
     }
     return 0;
 }
-
-
-
-
-
-
-
-
