@@ -48,6 +48,7 @@
         - [1023(Catalan求进栈出栈种类数目)](http://acm.hdu.edu.cn/showproblem.php?pid=1023) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1023.cpp)
         - [1027(第N种排列方式)](http://acm.hdu.edu.cn/showproblem.php?pid=1027) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1027.cpp)
         - [1028(整数划分)](http://acm.hdu.edu.cn/showproblem.php?pid=1028) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1028.cpp)
+        - [1085(硬币组成（母函数）))](http://acm.hdu.edu.cn/showproblem.php?pid=1085) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1085.cpp)
     - 分治
         - [1007(平面最近点对)](http://acm.hdu.edu.cn/showproblem.php?pid=1007) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1007.cpp) [我的博客](https://github.com/toFindMore/OJ_Practice/blob/master/blog/%E5%87%A0%E4%BD%95/HDU%201007%20Quoit%20Design.md)
     - 数据结构
