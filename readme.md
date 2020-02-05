@@ -29,6 +29,7 @@
         - [1002(大数加法)](http://acm.hdu.edu.cn/showproblem.php?pid=1002) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1002.cpp)
         - [1008(上下楼梯)](http://acm.hdu.edu.cn/showproblem.php?pid=1008) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1008.cpp)
         - [1022(进出栈顺序打印)](http://acm.hdu.edu.cn/showproblem.php?pid=1022) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1022.cpp)
+        - [1031(排序定义)](http://acm.hdu.edu.cn/showproblem.php?pid=1031) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1031.cpp)
     - 动态规划
         - [1003(区间和最大)](http://acm.hdu.edu.cn/showproblem.php?pid=1003) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1003.cpp)
         - [1011(树形DP)](http://acm.hdu.edu.cn/showproblem.php?pid=1011) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1011.cpp)
@@ -46,7 +47,7 @@
         - [1027(第N种排列方式)](http://acm.hdu.edu.cn/showproblem.php?pid=1027) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1027.cpp)
         - [1028(整数划分)](http://acm.hdu.edu.cn/showproblem.php?pid=1028) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1028.cpp)
         - [1030(规律题))](http://acm.hdu.edu.cn/showproblem.php?pid=1030) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1030.cpp)
-        - [1085(硬币组成（母函数）))](http://acm.hdu.edu.cn/showproblem.php?pid=1085) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1085.cpp)
+        - [1085(硬币组成-母函数)](http://acm.hdu.edu.cn/showproblem.php?pid=1085) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1085.cpp)
     - 分治
         - [1007(平面最近点对)](http://acm.hdu.edu.cn/showproblem.php?pid=1007) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1007.cpp) [我的博客](https://github.com/toFindMore/OJ_Practice/blob/master/blog/%E5%87%A0%E4%BD%95/HDU%201007%20Quoit%20Design.md)
     - 数据结构
