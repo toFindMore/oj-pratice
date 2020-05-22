@@ -31,6 +31,8 @@
         - [1022(进出栈顺序打印)](http://acm.hdu.edu.cn/showproblem.php?pid=1022) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1022.cpp)
         - [1031(排序定义)](http://acm.hdu.edu.cn/showproblem.php?pid=1031) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1031.cpp)
         - [1032(3n+1)](http://acm.hdu.edu.cn/showproblem.php?pid=1032) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1032.cpp)
+        - [1033(Edge)](http://acm.hdu.edu.cn/showproblem.php?pid=1033) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1033.cpp)
+        - [1034(Candy Sharing Game)](http://acm.hdu.edu.cn/showproblem.php?pid=1034) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1034.cpp)
     - 动态规划
         - [1003(区间和最大)](http://acm.hdu.edu.cn/showproblem.php?pid=1003) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1003.cpp)
         - [1011(树形DP)](http://acm.hdu.edu.cn/showproblem.php?pid=1011) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1011.cpp)
