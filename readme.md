@@ -34,6 +34,7 @@
         - [1033(Edge)](http://acm.hdu.edu.cn/showproblem.php?pid=1033) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1033.cpp)
         - [1034(Candy Sharing Game)](http://acm.hdu.edu.cn/showproblem.php?pid=1034) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1034.cpp)
         - [1035(Robot Motion)](http://acm.hdu.edu.cn/showproblem.php?pid=1035) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1035.cpp)
+        - [1035(Average is not Fast Enough!)](http://acm.hdu.edu.cn/showproblem.php?pid=1036) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1036.cpp)
 
     - 动态规划
         - [1003(区间和最大)](http://acm.hdu.edu.cn/showproblem.php?pid=1003) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1003.cpp)
