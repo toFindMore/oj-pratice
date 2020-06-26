@@ -22,6 +22,8 @@
         - [1019(多数的最小公倍数)](http://acm.hdu.edu.cn/showproblem.php?pid=1019) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1019.cpp)
         - [1020(将重复串变为kX形式)](http://acm.hdu.edu.cn/showproblem.php?pid=1020) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1020.cpp)
         - [1029(占一半多的数字)](http://acm.hdu.edu.cn/showproblem.php?pid=1029) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1029.cpp)
+        - [1037(Keep on Truckin')](http://acm.hdu.edu.cn/showproblem.php?pid=1037) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1037.cpp)
+        - [1038(Biker's Trip Odometer)](http://acm.hdu.edu.cn/showproblem.php?pid=1038) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1038.cpp)
     - 规律
         - [1021(斐波那契数列第n位能否被3整除)](http://acm.hdu.edu.cn/showproblem.php?pid=1021) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1021.cpp) 
         - [1016(两数和互质-串)](http://acm.hdu.edu.cn/showproblem.php?pid=1016) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1016.cpp)
@@ -34,8 +36,8 @@
         - [1033(Edge)](http://acm.hdu.edu.cn/showproblem.php?pid=1033) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1033.cpp)
         - [1034(Candy Sharing Game)](http://acm.hdu.edu.cn/showproblem.php?pid=1034) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1034.cpp)
         - [1035(Robot Motion)](http://acm.hdu.edu.cn/showproblem.php?pid=1035) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1035.cpp)
-        - [1035(Average is not Fast Enough!)](http://acm.hdu.edu.cn/showproblem.php?pid=1036) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1036.cpp)
-
+        - [1036(Average is not Fast Enough!)](http://acm.hdu.edu.cn/showproblem.php?pid=1036) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1036.cpp)
+        
     - 动态规划
         - [1003(区间和最大)](http://acm.hdu.edu.cn/showproblem.php?pid=1003) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1003.cpp)
         - [1011(树形DP)](http://acm.hdu.edu.cn/showproblem.php?pid=1011) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1011.cpp)
