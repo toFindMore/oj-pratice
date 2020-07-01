@@ -24,6 +24,8 @@
         - [1029(占一半多的数字)](http://acm.hdu.edu.cn/showproblem.php?pid=1029) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1029.cpp)
         - [1037(Keep on Truckin')](http://acm.hdu.edu.cn/showproblem.php?pid=1037) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1037.cpp)
         - [1038(Biker's Trip Odometer)](http://acm.hdu.edu.cn/showproblem.php?pid=1038) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1038.cpp)
+        - [1039(Easier Done Than Said?)](http://acm.hdu.edu.cn/showproblem.php?pid=1039) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1039.cpp)
+
     - 规律
         - [1021(斐波那契数列第n位能否被3整除)](http://acm.hdu.edu.cn/showproblem.php?pid=1021) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1021.cpp) 
         - [1016(两数和互质-串)](http://acm.hdu.edu.cn/showproblem.php?pid=1016) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1016.cpp)
