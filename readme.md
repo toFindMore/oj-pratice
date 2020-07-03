@@ -40,7 +40,8 @@
         - [1034(Candy Sharing Game)](http://acm.hdu.edu.cn/showproblem.php?pid=1034) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1034.cpp)
         - [1035(Robot Motion)](http://acm.hdu.edu.cn/showproblem.php?pid=1035) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1035.cpp)
         - [1036(Average is not Fast Enough!)](http://acm.hdu.edu.cn/showproblem.php?pid=1036) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1036.cpp)
-        
+        - [1041(Computer Transformation:找规律+大数)](http://acm.hdu.edu.cn/showproblem.php?pid=1041) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1041.cpp)
+
     - 动态规划
         - [1003(区间和最大)](http://acm.hdu.edu.cn/showproblem.php?pid=1003) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1003.cpp)
         - [1011(树形DP)](http://acm.hdu.edu.cn/showproblem.php?pid=1011) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1011.cpp)
