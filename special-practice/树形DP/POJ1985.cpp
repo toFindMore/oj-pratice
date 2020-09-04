@@ -22,7 +22,7 @@ struct Node {
     int weight;
     int to;
     int next;
-} edge[SIZE];
+} e[SIZE];
 
 int tot;
 
@@ -31,9 +31,9 @@ int max(int a, int b) {
 }
 
 void add(int from, int to, int weight) {
-    edge[++tot].to = to;
-    edge[tot].weight = weight;
-    edge[tot].next = head[from];
+    e[++tot].to = to;
+    e[tot].weight = weight;
+    e[tot].next = head[from];
     head[from] = tot;
 }
 
@@ -43,13 +43,13 @@ void dfs(int now) {
     }
     visit[now] = true;
     int tmp;
-    for (int i = head[now]; i; i = edge[i].next) {
-        int to = edge[i].to;
+    for (int i = head[now]; i; i = e[i].next) {
+        int to = e[i].to;
         if (visit[to]) {
             continue;
         }
         dfs(to);
-        int num = dp_edge[to] + edge[i].weight;
+        int num = dp_edge[to] + e[i].weight;
         dp_edge[now] = max(dp_edge[now], num);
         if (num > dp[now].num1 || num > dp[now].num2) {
             if (dp[now].num1 < dp[now].num2) {

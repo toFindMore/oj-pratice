@@ -67,6 +67,8 @@ add_executable(HDU1108 hdu/HDU1108.cpp)
 add_executable(ZOJ1001 zoj/ZOJ1001.cpp)
 add_executable(ZOJ1002 zoj/ZOJ1002.cpp)
 add_executable(ZOJ1003 zoj/ZOJ1003.cpp)
+add_executable(ZOJ1119 zoj/ZOJ1119.cpp)
+add_executable(ZOJ1789 zoj/ZOJ1789.cpp)
 
 add_executable(P2015 special-practice/树形DP/P2015.cpp)
 add_executable(P2014 special-practice/树形DP/P2014.cpp)
@@ -77,6 +79,16 @@ add_executable(gcd_1 special-practice/数论/gcd.cpp)
 add_executable(ext_gcd special-practice/数论/ext_gcd.cpp)
 add_executable(combine_num special-practice/数论/combine_num.cpp)
 add_executable(prime special-practice/数论/prime.cpp)
+
+add_executable(leet-957 leetcode/leet-957.cpp)
+add_executable(leet-5483 leetcode/leet-5483.cpp)
+add_executable(leet-5495 leetcode/leet-5495.cpp)
+add_executable(leet-5496 leetcode/leet-5496.cpp)
+add_executable(leet-5497 leetcode/leet-5497.cpp)
+add_executable(leet-5499 leetcode/leet-5499.cpp)
+add_executable(leet-5500 leetcode/leet-5500.cpp)
+
+
 
 
 

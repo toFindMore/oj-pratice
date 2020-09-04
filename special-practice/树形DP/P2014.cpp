@@ -16,21 +16,21 @@ int max(int a, int b) {
 struct Node {
     int to;
     int next;
-} edge[601];
+} e[601];
 
 int dp[301][301];
 
 int n, m;
 
 void add(int from, int to) {
-    edge[++tot].next = head[from];
-    edge[tot].to = to;
+    e[++tot].next = head[from];
+    e[tot].to = to;
     head[from] = tot;
 }
 
 void dfs(int now) {
-    for (int k = head[now]; k; k = edge[k].next) {
-        int to = edge[k].to;
+    for (int k = head[now]; k; k = e[k].next) {
+        int to = e[k].to;
         dfs(to);
         // 这里包括虚拟节点
         for (int i = m + 1; i >= 1; i--) {
