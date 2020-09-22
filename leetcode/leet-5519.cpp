@@ -16,7 +16,7 @@ class Solution {
 
     long long mapValue[SIZE][SIZE][2];
 
-    void init(vector<vector<int>> &grid) {
+    void init(vector<vector<int> > &grid) {
         int row = grid.size();
         int col = grid[0].size();
         for (int i = 0; i < row; i++) {
@@ -34,7 +34,7 @@ class Solution {
     }
 
 public:
-    int maxProductPath(vector<vector<int>> &grid) {
+    int maxProductPath(vector<vector<int> > &grid) {
         init(grid);
         int row = grid.size();
         int col = grid[0].size();
