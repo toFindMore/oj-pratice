@@ -87,15 +87,9 @@ add_executable(leet-957 leetcode/leet-957.cpp)
 add_executable(leet-1317 leetcode/leet-1317.cpp)
 add_executable(leet-1318 leetcode/leet-1318.cpp)
 add_executable(leet-1579 leetcode/leet-1579.cpp)
-add_executable(leet-5483 leetcode/leet-5483.cpp)
-add_executable(leet-5493 leetcode/leet-5493.cpp)
-add_executable(leet-5494 leetcode/leet-5494.cpp)
-add_executable(leet-5495 leetcode/leet-5495.cpp)
-add_executable(leet-5496 leetcode/leet-5496.cpp)
-add_executable(leet-5497 leetcode/leet-5497.cpp)
-add_executable(leet-5499 leetcode/leet-5499.cpp)
-add_executable(leet-5500 leetcode/leet-5500.cpp)
-add_executable(leet-5519 leetcode/leet-5519.cpp)
+add_executable(leet-1642 leetcode/leet-1642.cpp)
+add_executable(leet-1643 leetcode/leet-1643.cpp)
+
 
 add_executable(leet-moke1 leetcode/leet-moke1.cpp)
 add_executable(leet-moke2 leetcode/leet-moke2.cpp)
@@ -106,8 +100,11 @@ add_executable(Permutation-Forgery "codeforces/Permutation Forgery.cpp")
 add_executable(Array-Cancellation "codeforces/Array Cancellation.cpp")
 add_executable(Balanced-Bitstring "codeforces/Balanced Bitstring.cpp")
 add_executable(Tree-Tag "codeforces/Tree Tag.cpp")
-add_executable(A1 "codeforces/A.cpp")
-add_executable(B1 "codeforces/B.cpp")
+add_executable(Special-Permutation "codeforces/Special Permutation.cpp")
+add_executable(Unique-Bid-Auction "codeforces/Unique Bid Auction.cpp")
+add_executable(Prison-Break "codeforces/Prison Break.cpp")
+
+
 
 
 

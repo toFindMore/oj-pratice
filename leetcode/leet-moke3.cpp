@@ -9,35 +9,35 @@
 using namespace std;
 
 class Solution {
-    struct Info {
-        int cost;
-        char value;
-        Info(int _cost, char _value) {
-            cost = _cost;
-            value = _value;
+
+    int res = -1;
+
+    void forward(vector<int> &heights, int cur, int bricks, int ladders) {
+        if (cur == heights.size() - 1) {
+            res = heights.size() - 1;
+            return;
         }
-    };
-public:
-    int minCost(string s, vector<int> &cost) {
-        stack<Info> stack;
-        int res = 0;
-        for (int i = 0; i < s.size(); i++) {
-            if(stack.empty()) {
-                stack.push(Info(cost[i], s[i]));
-            } else {
-                if(s[i] == stack.top().value) {
-                    if(cost[i] < stack.top().cost) {
-                        res += cost[i];
-                    } else {
-                        res += stack.top().cost;
-                        stack.pop();
-                        stack.push(Info(cost[i], s[i]));
-                    }
-                } else {
-                    stack.push(Info(cost[i], s[i]));
-                }
+        if (heights[cur + 1] <= heights[cur]) forward(heights, cur + 1, bricks, ladders);
+        else {
+            // 如果不能再前进了
+            if (ladders <= 0 && bricks < heights[cur + 1] - heights[cur]) {
+                res = res < cur ? cur : res;
+                return;
+            }
+            // 用梯子
+            if (ladders > 0) {
+                forward(heights, cur + 1, bricks, ladders - 1);
+            }
+            // 用砖
+            if (bricks >= heights[cur + 1]) {
+                forward(heights, cur + 1, bricks - heights[cur + 1] + heights[cur], ladders - 1);
             }
         }
+    }
+
+public:
+    int furthestBuilding(vector<int> &heights, int bricks, int ladders) {
+        forward(heights, 0, bricks, ladders);
         return res;
     }
 };
