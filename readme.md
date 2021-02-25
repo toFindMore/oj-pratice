@@ -4,10 +4,7 @@
 
 - 希望借此项目提升自己的编程能力。
 
-- 有些比较难懂难刷的题目，除了写基本的代码外，我还会以markdown的形式去记录解题思路，并附上链接。
-
-## 计划
-- [ ] HDU：2019.12-2020.12 `500` 题的小目标
+- 有些比较难懂难刷的题目，除了写基本的代码外，我还会以markdown的形式去记录解题思路，并附上链接
 
 ## 题目归类
 - HDU OJ
@@ -26,8 +23,9 @@
         - [1038(Biker's Trip Odometer)](http://acm.hdu.edu.cn/showproblem.php?pid=1038) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1038.cpp)
         - [1039(Easier Done Than Said?)](http://acm.hdu.edu.cn/showproblem.php?pid=1039) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1039.cpp)
         - [1040(As Easy As A+B)](http://acm.hdu.edu.cn/showproblem.php?pid=1040) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1040.cpp)
+        - [2094(产生冠军)](http://acm.hdu.edu.cn/showproblem.php?pid=2094) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU2094.cpp)
 
-    - 规律
+      - 规律
         - [1021(斐波那契数列第n位能否被3整除)](http://acm.hdu.edu.cn/showproblem.php?pid=1021) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1021.cpp) 
         - [1016(两数和互质-串)](http://acm.hdu.edu.cn/showproblem.php?pid=1016) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1016.cpp)
     - 模拟题
@@ -46,6 +44,8 @@
         - [1003(区间和最大)](http://acm.hdu.edu.cn/showproblem.php?pid=1003) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1003.cpp)
         - [1011(树形DP)](http://acm.hdu.edu.cn/showproblem.php?pid=1011) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1011.cpp)
         - [1024(最大m子段和)](http://acm.hdu.edu.cn/showproblem.php?pid=1024) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1024.cpp)
+        - [1520(树形DP)](http://acm.hdu.edu.cn/showproblem.php?pid=1520) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1520.cpp)
+        - [4632(回文)](http://acm.hdu.edu.cn/showproblem.php?pid=4632) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU4632.cpp)
     - 快速幂：
         - [1005(矩阵快速幂)](http://acm.hdu.edu.cn/showproblem.php?pid=1005) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1005.cpp)
     - 贪心：
