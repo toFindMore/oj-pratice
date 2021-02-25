@@ -1,61 +1,53 @@
-//
-// Created by 周健 on 2019-08-02.
-//
 #include <iostream>
 #include <queue>
 #include <cstring>
 #include <map>
 #include <set>
 #include <vector>
-#include <deque>
+#include <stack>
 
-#define min(x, y) x>y?y:x
 using namespace std;
 
-class Solution {
+const int maxn = 100005;
 
-    struct Node {
-        int after, origin;
-        Node(int _after, int _origin) {
-            after = _after;
-            origin = _origin;
-        }
-    };
+int origin[maxn], bit[maxn];
 
-    bool cmp(Node node1, Node node2) {
-        if(node1.after < node2.after) return true;
-        if(node1.after == node2.after)
+int lowbit(int x) {
+    return x & (-x);
+}
+
+void add(int i, int x) {
+    while (i < maxn) {
+        bit[i] += x;
+        i += lowbit(i);
     }
-public:
-    int minimumDeviation(vector<int> &nums) {
-        vector<Node> numsV;
-        for (int i = 0; i < nums.size(); i++) {
-            int x = 1, pre;
-            while (nums[i] % x == 0) pre = x, x *= 2;
-            int tmp = nums[i];
-            numsV.push_back(Node(nums[i] / pre, nums[i]));
-        }
-        sort(nums.begin(), nums.end());
-        int endPoint = nums.size() - 1;
-        int minNum = nums[endPoint] - nums[0];
-        while (true) {
-            if(nums[0] % 2 == 0) break;
-            nums[0] = nums[0] * 2;
-            sort(nums.begin(), nums.end());
-            if(minNum < nums[endPoint] - nums[0]) break;
-            minNum = nums[endPoint] - nums[0];
-        }
-        return minNum;
+}
+
+int getSum(int i) {
+    int sum = 0;
+    while (i) {
+        sum += bit[i];
+        i -= lowbit(i);
     }
-};
+    return sum;
+}
 
 int main() {
-    vector<int> vv;
-    vv.push_back(4);
-    vv.push_back(9);
-    vv.push_back(4);
-    vv.push_back(5);
-    Solution s;
-    cout << s.minimumDeviation(vv);
+    int t, n;
+    cin >> t;
+    while (t--) {
+        fill(bit, bit + maxn, 0);
+        scanf("%d", &n);
+        for (int i = 0; i < n; i++) {
+            scanf("%d", origin + i);
+            add(origin[i], 1);
+        }
+        long long ans = 0;
+        for (int i = 0; i < n; i++) {
+            int tmp = getSum(origin[i] - 1);
+            ans += tmp * (n - 1 - tmp);
+        }
+        cout << ans << endl;
+    }
     return 0;
 }

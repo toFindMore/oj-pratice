@@ -1,22 +1,15 @@
-//
-// Created by 周健 on 2020-09-05.
-//
 #include <stdio.h>
-#include <set>
+#include <map>
 #include <vector>
 #include <iostream>
+#include <math.h>
 
 using namespace std;
 
-class Solution {
-public:
-    int minimumEffort(vector<vector<int>>& tasks) {
-        return 0;
-    }
-};
+
 
 int main() {
-    Solution s;
-
+   int x = ;
+   cout << x;
     return 0;
 }
