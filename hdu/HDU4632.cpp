@@ -11,6 +11,7 @@ using namespace std;
 const int SIZE = 1005;
 int dp[SIZE][SIZE];
 
+
 void init() {
     for (int i = 0; i < SIZE; i++) fill(dp[i], dp[i] + SIZE, 0);
 }

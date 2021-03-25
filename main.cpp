@@ -8,46 +8,29 @@
 
 using namespace std;
 
-const int maxn = 100005;
+const int MAXN = 110010;
+char A[MAXN * 2];
+int B[MAXN * 2];
 
-int origin[maxn], bit[maxn];
-
-int lowbit(int x) {
-    return x & (-x);
-}
-
-void add(int i, int x) {
-    while (i < maxn) {
-        bit[i] += x;
-        i += lowbit(i);
+void Manacher(char s[], int len) {
+    int l = 0;
+    A[l++] = '$'; // 0下标存储为其他字符
+    A[l++] = '#';
+    for (int i = 0; i < len; i++) {
+        A[l++] = s[i];
+        A[l++] = '#';
     }
-}
-
-int getSum(int i) {
-    int sum = 0;
-    while (i) {
-        sum += bit[i];
-        i -= lowbit(i);
-    }
-    return sum;
-}
-
-int main() {
-    int t, n;
-    cin >> t;
-    while (t--) {
-        fill(bit, bit + maxn, 0);
-        scanf("%d", &n);
-        for (int i = 0; i < n; i++) {
-            scanf("%d", origin + i);
-            add(origin[i], 1);
+    A[l] = 0;
+    int mx = 0;
+    int id = 0;
+    for (int i = 0; i < l; i++) {
+        B[i] = mx > i ? std::min(B[2 * id - i], mx - i) : 1;
+        while (A[i + B[i]] == A[i - B[i]]) {
+            B[i]++;
         }
-        long long ans = 0;
-        for (int i = 0; i < n; i++) {
-            int tmp = getSum(origin[i] - 1);
-            ans += tmp * (n - 1 - tmp);
+        if (i + B[i] > mx) {
+            mx = i + B[i];
+            id = i;
         }
-        cout << ans << endl;
     }
-    return 0;
 }

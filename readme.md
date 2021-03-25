@@ -64,6 +64,7 @@
         - [1007(平面最近点对)](http://acm.hdu.edu.cn/showproblem.php?pid=1007) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1007.cpp) [我的博客](https://github.com/toFindMore/OJ_Practice/blob/master/blog/%E5%87%A0%E4%BD%95/HDU%201007%20Quoit%20Design.md)
     - 数据结构
         - [1025(最长递增子序列)](http://acm.hdu.edu.cn/showproblem.php?pid=1025) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU1025.cpp) [树状数组](https://github.com/toFindMore/OJ_Practice/blob/master/blog/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84.md)
+        - [2795(Billboard)](http://acm.hdu.edu.cn/showproblem.php?pid=2795) [我的解法](https://github.com/toFindMore/OJ_Practice/blob/master/hdu/HDU2795.cpp)
 
 - ZOJ
     - 简单题

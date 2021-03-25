@@ -66,6 +66,7 @@ add_executable(HDU6318 hdu/HDU6318.cpp)
 add_executable(HDU1284 hdu/HDU1284.cpp)
 add_executable(HDU1108 hdu/HDU1108.cpp)
 add_executable(HDU4632 hdu/HDU4632.cpp)
+add_executable(HDU2795 hdu/HDU2795.cpp)
 
 
 add_executable(ZOJ1001 zoj/ZOJ1001.cpp)
@@ -107,6 +108,12 @@ add_executable(Special-Permutation "codeforces/Special Permutation.cpp")
 add_executable(Unique-Bid-Auction "codeforces/Unique Bid Auction.cpp")
 add_executable(Prison-Break "codeforces/Prison Break.cpp")
 
+add_executable(P1886 "luogu/P1886.cpp")
+
+add_executable(modui algorithm-template/data-structure/Modui.cpp)
+add_executable(trie algorithm-template/data-structure/Trie.cpp)
+add_executable(segTree algorithm-template/data-structure/SegTree.cpp)
+add_executable(segTreeAll algorithm-template/data-structure/SegTree-All.cpp)
 
 
 
