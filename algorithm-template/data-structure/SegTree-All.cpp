@@ -31,7 +31,7 @@ void pushDown(int i) {
 void build(int l, int r, int i) {
     segTree[i].l = l, segTree[i].r = r, segTree[i].lazy = 0, segTree[i].len = r - l + 1;
     if (l == r) {
-        segTree[i].val = arr[i];
+        segTree[i].val = arr[l];
         return;
     }
     int mid = (l + r) >> 1;

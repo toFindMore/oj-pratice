@@ -4,14 +4,13 @@
 //
 #include <iostream>
 #include <algorithm>
-#include <unorder_map>
+#include <cmath>
 
 using namespace std;
 
 const int maxn = 1e5 + 4;
 int a[maxn];
 int unit;
-unorder_map<int, int> cnt;
 
 struct Q {
     int L, R, idx;

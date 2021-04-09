@@ -67,6 +67,7 @@ add_executable(HDU1284 hdu/HDU1284.cpp)
 add_executable(HDU1108 hdu/HDU1108.cpp)
 add_executable(HDU4632 hdu/HDU4632.cpp)
 add_executable(HDU2795 hdu/HDU2795.cpp)
+add_executable(HDU1165 hdu/HDU1165.cpp)
 
 
 add_executable(ZOJ1001 zoj/ZOJ1001.cpp)
@@ -109,12 +110,24 @@ add_executable(Unique-Bid-Auction "codeforces/Unique Bid Auction.cpp")
 add_executable(Prison-Break "codeforces/Prison Break.cpp")
 
 add_executable(P1886 "luogu/P1886.cpp")
+add_executable(P5490 "luogu/P5490.cpp")
+add_executable(P1533 "luogu/P1533.cpp")
+
 
 add_executable(modui algorithm-template/data-structure/Modui.cpp)
 add_executable(trie algorithm-template/data-structure/Trie.cpp)
 add_executable(segTree algorithm-template/data-structure/SegTree.cpp)
 add_executable(segTreeAll algorithm-template/data-structure/SegTree-All.cpp)
+add_executable(Rmq-ST algorithm-template/data-structure/Rmq-ST.cpp)
+add_executable(Fhq-Treap algorithm-template/data-structure/Fhq-Treap.cpp)
+add_executable(Fhq-Treap-01 algorithm-template/data-structure/Fhq-Treap-01.cpp)
+add_executable(Splay algorithm-template/data-structure/Splay.cpp)
 
+
+add_executable(POJ3264 poj/POJ3264.cpp)
+add_executable(POJ3264-st poj/POJ3264-st.cpp)
+
+add_executable(template template.cpp)
 
 
 
